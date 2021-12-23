@@ -5,6 +5,10 @@ This is a code repository for the journal article: **Accelerated change in the g
 The code is organized in three sections: 
 
 1.  Google Earth Engine
+  
+  a.   1_imports.R
+  a.   1_imports.R
+  a.   1_imports.R
 
 2.  Local processing
 
