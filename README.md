@@ -10,10 +10,10 @@ The code is organized in three sections:
     -   2_parameters.R
     -   3_load_collection.R
     -   4_mosaic.R
-    -   functions: f_rasters.R
-    -   functions: f_terrain.R
-    -   functions: f_vectors.R
-        -     test
+    -   functions: 
+        -f_rasters.R
+        -     f_terrain.R
+        -     f_vectors.R
   
 -   Local processing
 
