@@ -9,7 +9,7 @@ The code is organized in three sections:
     -   f_terrain.R
     -   f_vectors.R
 
--   Google Earth Engine
+-   Google Earth Engine Workflow
     -   1_imports.R
     -   2_parameters.R
     -   3_load_collection.R
