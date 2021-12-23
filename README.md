@@ -4,12 +4,16 @@ This is a code repository for the journal article: **Accelerated change in the g
 
 The code is organized in three sections: 
 
-1.  Google Earth Engine
+
+-   Google Earth Engine
+    -   1_imports.R
+    -   2_parameters.R
+    -   3_load_collection.R
+    -   4_mosaic.R
+    -   functions: f_rasters.R
+    -   functions: f_terrain.R
+    -   functions: f_vectors.R
   
-  a.   1_imports.R
-  a.   1_imports.R
-  a.   1_imports.R
+-   Local processing
 
-2.  Local processing
-
-3.  Analysis and Figures
+-   Analysis and Figures
