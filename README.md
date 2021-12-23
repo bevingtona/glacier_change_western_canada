@@ -1,6 +1,6 @@
 # Glacier change in western Canada
 
-This is a code repository for the journal article: `Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery`. 
+This is a code repository for the journal article: **Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery**. 
 
 The code is organized in three sections: 
 
