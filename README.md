@@ -1,6 +1,6 @@
 # Glacier area change in British Columbia and Alberta
 
-This is a code repository for the journal article: **Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery**. 
+This is a code repository for the journal article: **Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery**. https://www.sciencedirect.com/science/article/pii/S0034425721005824
 
 The code is organized in three sections: 
 
