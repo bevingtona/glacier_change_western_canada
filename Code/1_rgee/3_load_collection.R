@@ -19,7 +19,6 @@
   L4SR1 = ee$ImageCollection('LANDSAT/LT04/C01/T1_SR');
   L5SR1 = ee$ImageCollection('LANDSAT/LT05/C01/T1_SR');
   L7SR1 = ee$ImageCollection('LANDSAT/LE07/C01/T1_SR')$filterDate('1999-01-01','2003-01-01');
-  # L7SR1 = ee$ImageCollection('LANDSAT/LE07/C01/T1_SR')$filterDate('2012-01-01','2013-01-01');
   L8SR1 = ee$ImageCollection('LANDSAT/LC08/C01/T1_SR');
 
   LT_BANDS = c('B1', 'B2', 'B3', 'B4', 'B5', 'B7', 'B6');
@@ -38,10 +37,4 @@
     map(radiometric)$
     map(cloudMask)$
     map(computeGlaciersAndSnow)$
-    map(myclip_aoi);
-  
-    print(paste("Total Landsat Images:", 
-                col$size()$getInfo()))
-    print(col$first()$bandNames()$getInfo())
-  
-  
+    map(myclip_aoi)
