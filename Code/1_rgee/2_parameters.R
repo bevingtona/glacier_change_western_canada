@@ -23,20 +23,20 @@
   
   # Mosaic Parameters
   
-    minY            = 1984; 
-    maxY            = 2019;
-    search          = 1;
-    incY            = search; 
-    years           = ee$List$sequence(minY, maxY, incY);
+    # minY            = loop_minY;
+    # maxY            = loop_maxY;
+    # loop_search     = 1;
+    # incY            = 1;
+    # years           = ee$List$sequence(minY, maxY, incY);
     imageRes        = 30;
     clouds          = 30; 
-    percentile      = 20; #50
+    percentile      = 30; #50
     doyStart        = 210; 
     doyEnd          = 250; #260
   
   # Threshold parameters
   
-    cloudThresh     = 0.55;
+    cloudThresh     = 0.4;
     blueThresh      = 0.1;
     bandThresh      = 1.8; 
     ndsiSnThresh    = 0.93; 
@@ -62,3 +62,5 @@
       crs = "EPSG:4326",
       driveFolder = folder,
       region = aoi)
+
+    
