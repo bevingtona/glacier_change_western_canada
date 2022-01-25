@@ -28,7 +28,8 @@ vignettes/*.pdf
 .Renviron
 Data/
 Data_2021/
+Code/3_analysis/Table/
 X_*
-Code/3_analysis/!Figures_Final
+Code/3_analysis/!Figures_Final/
 *.drawio
 .gitignore
