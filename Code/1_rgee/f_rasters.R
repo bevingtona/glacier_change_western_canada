@@ -148,6 +148,7 @@ computeGlaciersAndSnow_threshold = function(img){
 # Function to Map Results over a List of Years to Map computeGlaciersAnd Snow (resultFunction) 
 
 resultFunction = function(year){
+  
   begin = ee$Date$fromYMD(year, 1, 1)
   end = begin$advance(search, 'year')
   computeGlaciersAndSnow(begin, end)}
@@ -159,7 +160,7 @@ myPercentile = function(year){
   # base = ee$Image(-9)$clip(aoi)
   # year = 2012
   begin = ee$Date$fromYMD(year, 1, 1);
-  end = begin$advance(search, 'year');
+  end = begin$advance(loop_year, 'year');
   
   colSub = col$
     filterDate(begin,end)
