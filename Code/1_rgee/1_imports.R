@@ -15,12 +15,6 @@
 
 #### Imports ####
 
-  # Sentinel-2 Debris cover (Scherler et al 2018)
-  
-    debris_rgi1_scherler = ee$FeatureCollection("users/bevingtona/01_rgi60_Alaska_S2_DC_2015_2017_NDSI");
-    debris_rgi2_scherler = ee$FeatureCollection("users/bevingtona/02_rgi60_WesternCanadaUS_S2_DC_2015_2017_NDSI");
-    debris = ee$Image(1)$clipToCollection(debris_rgi1_scherler$merge(debris_rgi2_scherler));
-
   # Glacier inventory (Bolch et al 2010)
 
     glaciers_1985 = ee$FeatureCollection("users/bevingtona/bolch_1985_clean_v2")
@@ -40,11 +34,3 @@
     dem_hs = ee$Terrain$hillshade(dem)
     
     demName = "srtm+cded"  
-
-  # Import Regions
-
-    # bc = ee$FeatureCollection("users/bevingtona/BC")$geometry()$bounds()$buffer(200000)
-    # regions = ee$FeatureCollection('users/bevingtona/us_canada_glacier_regions')$filterBounds(bc)
-
-
-    
