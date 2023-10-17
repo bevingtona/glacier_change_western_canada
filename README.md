@@ -26,11 +26,11 @@ The code is organized in three sections:
 ## EXAMPLE: How to read .GPKG that is available from Zenodo using R:
 
 
-`
+```
 library(sf)
 file <- "bca_glaciers_1984-2021.gpkg"
 st_layers(file)
 dat <- st_read(file, layer = "new_all_join_id_filter_20220120-0835", query = "select * from `new_all_join_id_filter_20220120-0835` where year = 2000 limit 1")
 print(dat)
 mapview::mapview(dat)
-`
+```
